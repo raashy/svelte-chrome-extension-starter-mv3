@@ -1,7 +1,6 @@
 {
   "name": "svelte-extension-starter",
-  "private": true,
-  "version": "0.0.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,6 +8,22 @@
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raashy/svelte-chrome-extension-starter-mv3"
+  },
+  "keywords": [
+    "svelte",
+    "vite",
+    "chrome-extension",
+    "svelte-chrome-extension"
+  ],
+  "author": "Rahit Ash <hi@rahitash.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raashy/svelte-chrome-extension-starter-mv3/issues"
+  },
+  "homepage": "https://github.com/raashy/svelte-chrome-extension-starter-mv3",
   "devDependencies": {
     "@chialab/esbuild-plugin-html": "^0.17.3",
     "@hyrious/esbuild-plugin-style": "^0.3.5",
